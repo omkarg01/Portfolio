@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- navbar -->
+        <nav class="navbar">
+            <div class="logo">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="140" height="48.193" viewBox="0 0 140 48.193">
+                    <g id="logo" transform="translate(0 -0.904)">
+                        <path id="Path_9" data-name="Path 9"
+                            d="M0,16.965v8.922A23.006,23.006,0,0,1,8.848,27.65a23.087,23.087,0,0,1,7.5,5.032,23.2,23.2,0,0,1,5.008,7.531A23.278,23.278,0,0,1,23.11,49.1h8.878a32.23,32.23,0,0,0-9.378-22.709A31.957,31.957,0,0,0,0,16.965Z" />
+                        <path id="Path_10" data-name="Path 10"
+                            d="M44.4.9H30.329a57.217,57.217,0,0,1,17.66,17.732V4.507A3.6,3.6,0,0,0,44.4.9Z" />
+                        <path id="Path_11" data-name="Path 11"
+                            d="M8.84.9H0V8.937A39.947,39.947,0,0,1,28.265,20.711,40.29,40.29,0,0,1,39.991,49.1h8V40.219a49.2,49.2,0,0,0-13.5-25.753A48.861,48.861,0,0,0,8.84.9Z" />
+                        <path id="Path_12" data-name="Path 12" d="M69.75,6.208H64.115V34.731H69.75Z" />
+                        <path id="Path_13" data-name="Path 13"
+                            d="M90.468,18.566a9.57,9.57,0,0,0-3.23-1.944,11.915,11.915,0,0,0-7.927,0,9.564,9.564,0,0,0-3.232,1.944A9.13,9.13,0,0,0,73.92,21.6a10.335,10.335,0,0,0,0,7.923,9.092,9.092,0,0,0,2.16,3.044,9.5,9.5,0,0,0,3.229,1.943,11.9,11.9,0,0,0,7.927,0,9.509,9.509,0,0,0,3.23-1.943,9.111,9.111,0,0,0,2.16-3.044,10.337,10.337,0,0,0,0-7.923A9.143,9.143,0,0,0,90.468,18.566ZM86.6,28.923a4.953,4.953,0,0,1-6.65,0,5.357,5.357,0,0,1,0-6.722,4.953,4.953,0,0,1,6.65,0,5.357,5.357,0,0,1,0,6.722Z" />
+                        <path id="Path_14" data-name="Path 14"
+                            d="M110.7,18.81h-.071a5.749,5.749,0,0,0-.9-1,6.521,6.521,0,0,0-1.352-.926,8.483,8.483,0,0,0-3.983-.942,7.371,7.371,0,0,0-3.493.812,8.285,8.285,0,0,0-2.612,2.132,9.693,9.693,0,0,0-1.653,3.055,11.092,11.092,0,0,0-.582,3.551,10.927,10.927,0,0,0,.639,3.8,8.73,8.73,0,0,0,1.813,3,8.2,8.2,0,0,0,2.84,1.959,9.368,9.368,0,0,0,3.681.7,7.728,7.728,0,0,0,2.723-.547,5.3,5.3,0,0,0,2.423-1.868h.076v1.775a4.453,4.453,0,0,1-1.221,3.225,5.088,5.088,0,0,1-3.814,1.268,7.738,7.738,0,0,1-3.173-.642,11.764,11.764,0,0,1-2.762-1.735l-3.118,4.673a10.854,10.854,0,0,0,4.358,2.132,21.31,21.31,0,0,0,4.809.547q5.334,0,7.944-2.7t2.612-7.9V16.4H110.7Zm-.338,8.356A4.435,4.435,0,0,1,109.4,28.6a4.882,4.882,0,0,1-1.446,1,4.356,4.356,0,0,1-3.55,0,4.965,4.965,0,0,1-1.428-1,4.463,4.463,0,0,1,0-6.3,4.989,4.989,0,0,1,1.428-1,4.371,4.371,0,0,1,3.55,0,4.905,4.905,0,0,1,1.446,1,4.491,4.491,0,0,1,.959,4.866Z" />
+                        <path id="Path_15" data-name="Path 15"
+                            d="M137.051,18.566a9.57,9.57,0,0,0-3.23-1.944,11.915,11.915,0,0,0-7.927,0,9.571,9.571,0,0,0-3.232,1.944A9.132,9.132,0,0,0,120.5,21.6a10.327,10.327,0,0,0,0,7.923,9.087,9.087,0,0,0,2.159,3.044,9.5,9.5,0,0,0,3.232,1.943,11.9,11.9,0,0,0,7.927,0,9.5,9.5,0,0,0,3.23-1.943,9.09,9.09,0,0,0,2.16-3.044,10.339,10.339,0,0,0,0-7.923A9.12,9.12,0,0,0,137.051,18.566Zm-3.869,10.356a4.952,4.952,0,0,1-6.65,0,5.355,5.355,0,0,1,0-6.722,4.952,4.952,0,0,1,6.65,0,5.358,5.358,0,0,1,0,6.722Z" />
+                    </g>
+                </svg> -->
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500"
+                    zoomAndPan="magnify" viewBox="0 0 375 374.999991" height="500" preserveAspectRatio="xMidYMid meet"
+                    version="1.0">
+                    <defs>
+                        <clipPath id="id1">
+                            <path
+                                d="M 59.160156 103.277344 L 315.660156 103.277344 L 315.660156 272 L 59.160156 272 Z M 59.160156 103.277344 "
+                                clip-rule="nonzero" />
+                        </clipPath>
+                    </defs>
+                    <rect x="-37.5" width="450" fill="#ffffff" y="-37.499999" height="449.999989" fill-opacity="1" />
+                    <rect x="-37.5" width="450" fill="#111111" y="-37.499999" height="449.999989" fill-opacity="1" />
+                    <rect x="-37.5" width="450" fill="#ffffff" y="-37.499999" height="449.999989" fill-opacity="1" />
+                    <rect x="-37.5" width="450" fill="#111111" y="-37.499999" height="449.999989" fill-opacity="1" />
+                    <g clip-path="url(#id1)">
+                        <path fill="#15be15"
+                            d="M 315.394531 269.179688 L 257.851562 269.179688 C 246.78125 269.179688 235.5 268.101562 224.859375 265.03125 C 214.4375 261.960938 205.089844 256.304688 196.4375 249.789062 C 179.730469 265.246094 158.667969 271.980469 135.1875 271.980469 C 114.125 271.980469 95.429688 265.246094 80.492188 249.789062 C 66.09375 235.027344 59.160156 217.414062 59.160156 196.730469 C 59.160156 181.699219 63.082031 167.101562 69.371094 153.421875 C 76.300781 138.609375 86.9375 126.648438 100.425781 117.492188 C 115.199219 107.472656 131.910156 103.539062 149.695312 103.539062 C 168.390625 103.539062 185.746094 108.335938 200.089844 119.863281 C 202.242188 118.355469 204.660156 116.792969 207.023438 115.5 C 221.582031 107.042969 237.648438 103.324219 254.574219 103.324219 C 271.710938 103.324219 288.636719 107.472656 304.539062 113.773438 L 309.320312 127.296875 C 295.40625 112.050781 274.34375 104.402344 254.359375 104.402344 C 235.015625 104.402344 218.519531 111.136719 205.304688 124.441406 C 219.863281 138.609375 226.792969 156.007812 226.792969 176.476562 C 226.792969 202.386719 219.003906 225.441406 201.597656 244.402344 C 201.167969 244.832031 200.738281 245.261719 200.304688 245.910156 C 211.589844 257.652344 224.214844 263.308594 240.925781 266.164062 C 247.210938 267.242188 253.980469 268.101562 260.484375 268.101562 C 263.117188 268.101562 269.402344 267.886719 275.472656 267.457031 C 281.328125 267.242188 287.832031 266.378906 290.464844 264.601562 C 292.613281 263.09375 293.742188 260.667969 294.171875 258.515625 C 294.816406 256.144531 294.816406 253.71875 294.816406 251.78125 L 294.816406 226.519531 C 294.816406 220.863281 293.527344 216.714844 290.035156 214.558594 L 315.660156 214.558594 C 311.523438 216.714844 310.664062 221.292969 310.664062 228.078125 L 310.664062 254.421875 C 310.609375 259.644531 310.828125 266.164062 315.394531 269.179688 Z M 195.09375 248.765625 C 176.667969 233.734375 163.394531 210.035156 163.394531 186.0625 C 163.394531 172.113281 167.746094 159.078125 174.679688 147.117188 C 178.386719 141.03125 182.46875 135.375 187.464844 130.367188 C 182.898438 126.648438 178.117188 123.417969 172.90625 120.5625 C 161.191406 114.042969 147.921875 109.25 134.273438 109.25 C 116.703125 109.25 101.5 116.199219 88.875 128.210938 C 75.171875 141.03125 68.457031 156.921875 68.457031 175.882812 C 68.457031 200.070312 76.945312 221.398438 93.226562 239.015625 C 108 255.335938 126.214844 266.433594 149.050781 266.433594 C 165.972656 266.378906 182.253906 259.644531 195.09375 248.765625 Z M 199.445312 244.617188 C 211.804688 232.226562 219.648438 215.207031 219.648438 196.945312 C 219.648438 173.890625 210.300781 152.988281 195.09375 137.316406 C 184.671875 153.207031 180.320312 171.25 180.320312 190.644531 C 180.320312 199.585938 181.179688 208.902344 183.597656 217.628906 C 186.230469 226.570312 190.957031 234.382812 196.652344 241.332031 C 197.460938 242.40625 198.320312 243.539062 199.445312 244.617188 Z M 199.445312 244.617188 "
+                            fill-opacity="1" fill-rule="nonzero" />
+                    </g>
+                </svg>
+                <!-- <img src="./ss/OG-Logo.svg" alt=""> -->
+            </div>
+            <ul class="list">
+                <li>Home</li>
+                <li>Project</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Other Page</li>
+            </ul>
+        </nav>
+
+        <!-- hero section -->
+        <div class="hero">
+            <div class="left-section">
+                <div class="self-img">
+                    <img src="./ss/profile.jpg" alt="">
+                </div>
+                <div class="self-desc">
+                    <h2 class="name">Hello,&nbsp; I'm Omkar !</h2>
+                    <h3>Full Stack Web Developer</h3>
+                </div>
+                <div class="social">
+                    <div class="logo">
+                        <a href="https://github.com/omkarg01" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <div class="logo">
+                        <a href="https://twitter.com/gujja_omkar" target="_blank"><i
+                                class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="logo">
+                        <a href="https://www.linkedin.com/in/omkar-gujja-431859168" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <p><span><i class="fa-solid fa-location-dot"></i></span> Mumbai, India</p>
+                </div>
+            </div>
+
+            <div class="right-section">
+                <div class="about">
+                    <h1>About</h1>
+                    <p>
+                        I am a self-taught Developer and passionate about techie. I have more than a year of coding
+                        experience
+                        and worked on production level Full-Stack applications. I keep updating myself about latest and
+                        upcoming technologies.
+                    </p>
+                </div>
+                <div class="service-cards">
+                    <div class="service-card one">
+                        <!-- <div class="logo"> -->
+                        <!-- <img src="./assets/ui.svg" alt="logo" /> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="65" height="70.967" viewBox="0 0 65 70.967">
+                            <g id="ui" transform="translate(-420 -428.974)">
+                                <path id="Path_4" data-name="Path 4"
+                                    d="M121.13,160.351a2.863,2.863,0,0,0-.355.471,1.638,1.638,0,0,0-.266.5,1.76,1.76,0,0,0-.177.56,2.726,2.726,0,0,0,.177,1.678,2.653,2.653,0,0,0,1.6,1.59,2.483,2.483,0,0,0,1.122.236,2.975,2.975,0,0,0,1.123-.207,4.294,4.294,0,0,0,.975-.647,2.934,2.934,0,0,0,.857-2.091,2.461,2.461,0,0,0-.237-1.119,3.361,3.361,0,0,0-.62-.971,3.059,3.059,0,0,0-4.195,0ZM108.957,172.6a1.655,1.655,0,0,0-.266.5,1.744,1.744,0,0,0-.236.559,2.506,2.506,0,0,0,0,1.149l.177.53.266.53.354.441a3.1,3.1,0,0,0,2.157.854,2.955,2.955,0,0,0,2.1-.854,3.361,3.361,0,0,0,.62-.971,2.942,2.942,0,0,0-1.332-3.712,2.977,2.977,0,0,0-1.386-.352,3.112,3.112,0,0,0-2.1.854Zm12.173-.471a3.366,3.366,0,0,0-.857,2.68l.177.53a2.25,2.25,0,0,0,.266.53,4.554,4.554,0,0,0,.354.441,2.947,2.947,0,0,0,.975.619,2.79,2.79,0,0,0,2.246,0,3.377,3.377,0,0,0,.975-.619,2.943,2.943,0,0,0,.916-2.09,2.459,2.459,0,0,0-.237-1.119,2.655,2.655,0,0,0-1.6-1.59,2.788,2.788,0,0,0-2.245,0A2.95,2.95,0,0,0,121.13,172.128Zm-12.439-8.568a2.953,2.953,0,0,0,.62.972,3.112,3.112,0,0,0,2.1.854,2.957,2.957,0,0,0,2.444-1.312,2.938,2.938,0,0,0,.274-2.752,3.361,3.361,0,0,0-.62-.971,2.955,2.955,0,0,0-2.1-.854,3.112,3.112,0,0,0-2.1.854,2.936,2.936,0,0,0-.62,3.209Zm12.439-14.987a3.4,3.4,0,0,0-.621.971,2.85,2.85,0,0,0,1.6,3.828,2.777,2.777,0,0,0,2.245,0,3.4,3.4,0,0,0,.975-.618,2.934,2.934,0,0,0,.857-2.091,2.461,2.461,0,0,0-.237-1.119,3.375,3.375,0,0,0-.62-.971,3.059,3.059,0,0,0-4.195,0Zm-36.312,2.09v23.556a2.949,2.949,0,0,0,2.954,2.944H99.591a2.948,2.948,0,0,0,2.954-2.944V150.663a2.948,2.948,0,0,0-2.954-2.944H87.773a2.949,2.949,0,0,0-2.954,2.944Zm11.818,2.945v17.666H90.727V153.608ZM73,144.774v35.334a8.848,8.848,0,0,0,8.864,8.833h47.272A8.848,8.848,0,0,0,138,180.108V144.774a8.848,8.848,0,0,0-8.864-8.833H81.864A8.848,8.848,0,0,0,73,144.774Zm56.136-2.944a2.948,2.948,0,0,1,2.955,2.944v35.334a2.948,2.948,0,0,1-2.955,2.944H81.864a2.949,2.949,0,0,1-2.954-2.944V144.774a2.949,2.949,0,0,1,2.954-2.944Zm-20.179,7.214a1.649,1.649,0,0,0-.266.5,1.76,1.76,0,0,0-.177.56,2.5,2.5,0,0,0,0,1.148l.177.53.266.53.354.442a3.112,3.112,0,0,0,2.1.854,2.96,2.96,0,0,0,2.444-1.311,2.94,2.94,0,0,0,.274-2.753,3.375,3.375,0,0,0-.62-.971,2.967,2.967,0,0,0-2.1-.854,3.112,3.112,0,0,0-2.1.854Z"
+                                    transform="translate(347 311)" />
+                                <path id="Path_5" data-name="Path 5"
+                                    d="M85.092,119a1.7,1.7,0,0,0-.489,1.21l.138,10.205a1.72,1.72,0,0,0,1.732,1.686l6.811-.093,26.306-.357a1.691,1.691,0,0,0,.65-.141,1.715,1.715,0,0,0,.546-.38l5.033-5.172a1.7,1.7,0,0,0-.032-2.406l-5.172-5.033a1.7,1.7,0,0,0-1.271-.549l-26.232.428-6.764.02a2,2,0,0,0-.66.141,1.7,1.7,0,0,0-.285.293,1.192,1.192,0,0,0-.166.17Zm33.649,2.445,3.452,3.359-3.359,3.452-23.9.324-.092-6.811Zm-27.292.37.092,6.811-3.406.034-.092-6.787Z"
+                                    transform="translate(347 311)" />
+                            </g>
+                        </svg>
+                        <!-- <i class="fa-solid fa-display"></i> -->
+                        <!-- </div> -->
+                        <h1>UI Developer</h1>
+                        <p>
+                            Lorem ipsum dolor sit <br>
+                            consectetur adipisicing. <br>
+                            Ullam, sit aigo neg.
+                        </p>
+
+                        <!-- <div class="service-btn">
+                                <button class="btn">Know More</button>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div> -->
+                    </div>
+                    <div class="service-card two">
+                        <!-- <div class="logo">
+                            <img src="./assets/product.svg" alt="logo" />
+                        </div> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="49" height="61" viewBox="0 0 49 61">
+                            <path id="product"
+                                d="M483.562,167.6h-12.25a3.05,3.05,0,1,0,0,6.1h12.25a3.05,3.05,0,1,0,0-6.1Zm12.25-30.5H492.2a9.183,9.183,0,0,0-8.637-6.1h-6.124a9.183,9.183,0,0,0-8.637,6.1h-3.613A9.169,9.169,0,0,0,456,146.25v36.6a9.169,9.169,0,0,0,9.188,9.15h30.624A9.169,9.169,0,0,0,505,182.85v-36.6a9.169,9.169,0,0,0-9.188-9.15Zm-21.437,3.05a3.056,3.056,0,0,1,3.063-3.05h6.124a3.056,3.056,0,0,1,3.063,3.05v3.05h-12.25Zm24.5,42.7a3.056,3.056,0,0,1-3.063,3.05H465.188a3.056,3.056,0,0,1-3.063-3.05v-36.6a3.056,3.056,0,0,1,3.063-3.05h3.062v3.05a3.056,3.056,0,0,0,3.062,3.05h18.376a3.056,3.056,0,0,0,3.062-3.05V143.2h3.062a3.056,3.056,0,0,1,3.063,3.05Zm-9.187-27.45H471.312a3.05,3.05,0,1,0,0,6.1h18.376a3.05,3.05,0,1,0,0-6.1Z"
+                                transform="translate(-456 -131)" />
+                        </svg>
+                        <h1>Frontend Developer</h1>
+                        <p>
+                            Lorem ipsum dolor sit <br>
+                            consectetur adipisicing. <br>
+                            Ullam, sit aigo neg.
+                        </p>
+
+                        <!-- <div class="service-btn">
+                                <button class="btn">Know More</button>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div> -->
+                    </div>
+                    <div class="service-card three">
+                        <!-- <div class="logo">
+                            <img src="./assets/branding.svg" alt="logo" />
+                        </div> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="63.104" height="61" viewBox="0 0 63.104 61">
+                            <g id="branding" transform="translate(-1184 -442)">
+                                <path id="Path_7" data-name="Path 7"
+                                    d="M882.247,143.516l-11.8-11.906a2.106,2.106,0,0,0-2.965,0l-29.869,29.764a2.1,2.1,0,0,0,0,2.966l11.905,11.9a2.116,2.116,0,0,0,.686.454,2.11,2.11,0,0,0,2.28-.454l5.953-5.953,17.858-17.858,5.953-5.953a2.1,2.1,0,0,0,0-2.965Zm-7.446,4.459-1.494-1.494a2.1,2.1,0,1,0-2.966,2.987l1.494,1.494-2.987,2.966-4.459-4.46a2.1,2.1,0,0,0-2.966,2.966l4.459,4.459L862.9,159.88l-1.472-1.493a2.112,2.112,0,1,0-2.987,2.987l1.493,1.472-2.966,2.987-4.48-4.459a2.1,2.1,0,0,0-2.966,2.966l4.459,4.459-2.965,2.987-8.94-8.94,26.777-26.777,8.94,8.94Z"
+                                    transform="translate(347 311)" />
+                                <path id="Path_8" data-name="Path 8"
+                                    d="M860.138,192H898a2.1,2.1,0,0,0,2.1-2.1V152.034a2.1,2.1,0,0,0-2.1-2.1H885.379a2.1,2.1,0,0,0-2.1,2.1v23.138H860.138a2.1,2.1,0,0,0-2.1,2.1V189.9a2.1,2.1,0,0,0,2.1,2.1Zm2.1-12.621h4.207v2.1a2.1,2.1,0,0,0,4.207,0v-2.1h4.207v2.1a2.1,2.1,0,0,0,4.207,0v-2.1h4.207v2.1a2.1,2.1,0,0,0,4.207,0v-2.1h2.1a2.1,2.1,0,1,0,0-4.207h-2.1v-4.206h2.1a2.1,2.1,0,1,0,0-4.207h-2.1v-4.207h2.1a2.1,2.1,0,1,0,0-4.207h-2.1v-4.207H895.9v33.655H862.241Z"
+                                    transform="translate(347 311)" />
+                            </g>
+                        </svg>
+                        <!-- <i class="fa-solid fa-server"></i> -->
+                        <h1>Backend Developer</h1>
+                        <p>
+                            Lorem ipsum dolor sit <br>
+                            consectetur adipisicing. <br>
+                            Ullam, sit aigo neg.
+                        </p>
+
+                        <!-- <div class="service-btn">
+                                <button class="btn">Know More</button>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- service section -->
+        <div class="service-section">
+
+            <!-- stats -->
+            <div class="stats">
+                <div class="left">
+                    <h1>2</h1>
+                    <p>Years Experience</p>
+                </div>
+                <div class="right">
+                    <!-- <div class="stats-box">
+                        <h1>60+</h1>
+                        <p>Clients</p>
+                    </div> -->
+                    <!-- <div class="stats-box">
+                        <h1>08</h1>
+                        <p>Years Experience</p>
+                    </div> -->
+                    <div class="stats-box">
+                        <h1>15+</h1>
+                        <p>Projects</p>
+                    </div>
+                    <!-- <div class="stats-box">
+                        <h1>10</h1>
+                        <p>Achievments</p>
+                    </div> -->
+
+                    <!-- <div class="skills-box">
+
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- projects section -->
+        <div class="projects">
+            <div class="headline">
+                <div class="left">
+                    <h1>Featured Projects</h1>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+                        Odit, animi!
+                    </p>
+                </div>
+                <div class="right">
+                    <button class="btn view">View All</button>
+                </div>
+            </div>
+
+            <div class="project-cards">
+                <!-- card-1 -->
+                <div class="project-card">
+                    <div class="img">
+                        <img src="./assets/1.png" alt="p-1" />
+                    </div>
+                    <!-- <h1>The Vintage</h1>
+                    <span>
+                        <button class="proj-btn">Know More</button>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span> -->
+                    <div class="project-btns">
+                        <a href="https://62e2b71c8691ce4344ed9e4d--startling-raindrop-9e548a.netlify.app/"
+                            target="_blank">
+                            <button class="live-btn">Live Link</button>
+                        </a>
+                        <a href="https://github.com/omkarg01/HTML-CSS-Project-1" target="_blank">
+                            <button class="github-btn">Github Link</button>
+                        </a>
+                    </div>
+                </div>
+                <!-- card-2 -->
+                <div class="project-card">
+                    <div class="img">
+                        <img src="./assets/2.png" alt="p-1" />
+                    </div>
+                    <!-- <h1>Foodasa</h1>
+                    <span>
+                        <button>Know More</button>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span> -->
+                    <div class="project-btns">
+                        <a href="https://62e2b86763dac34141a6bfbb--admirable-dragon-4d73f0.netlify.app/"
+                            target="_blank">
+                            <button class="live-btn">Live Link</button>
+                        </a>
+                        <a href="https://github.com/omkarg01/HTML-CSS-Project-2" target="_blank">
+                            <button class="github-btn">Github Link</button>
+                        </a>
+                    </div>
+                </div>
+                <!-- card-3 -->
+                <div class="project-card">
+                    <div class="img">
+                        <img src="./assets/3.png" alt="p-1" />
+                    </div>
+                    <!-- <h1>Macro Accent</h1>
+                    <span>
+                        <button>Know More</button>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span> -->
+                    <div class="project-btns">
+                        <a href="https://62e2b8c96fe1bf43e077452a--chic-salmiakki-14498a.netlify.app/" target="_blank">
+                            <button class="live-btn">Live Link</button>
+                        </a>
+                        <a href="https://github.com/omkarg01/HTML-CSS-Project-3" target="_blank">
+                            <button class="github-btn">Github Link</button>
+                        </a>
+                    </div>
+                </div>
+                <!-- card-4 -->
+                <div class="project-card">
+                    <div class="img">
+                        <img src="./assets/4.png" alt="p-1" />
+                    </div>
+                    <!-- <h1>Mozaik</h1>
+                    <span>
+                        <button>Know More</button>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span> -->
+                    <div class="project-btns">
+                        <a href="https://62e2b92763dac344b3a6a8e4--endearing-swan-c59250.netlify.app/" target="_blank">
+                            <button class="live-btn">Live Link</button>
+                        </a>
+                        <a href="https://github.com/omkarg01/HTML-CSS-Project-4" target="_blank">
+                            <button class="github-btn">Github Link</button>
+                        </a>
+                    </div>
+                </div>
+                <!-- card-5 -->
+                <div class="project-card">
+                    <div class="img">
+                        <img src="./ss/preview-5.png" alt="p-1" />
+                    </div>
+                    <div class="project-btns">
+                        <a href="https://62e2b987d5f6c846eac540a9--incandescent-cranachan-4cc638.netlify.app/"
+                            target="_blank">
+                            <button class="live-btn">Live Link</button>
+                        </a>
+                        <a href="https://github.com/omkarg01/HTML-CSS-Project-5" target="_blank">
+                            <button class="github-btn">Github Link</button>
+                        </a>
+                    </div>
+                </div>
+                <!-- card-6 -->
+                <div class="project-card">
+                    <div class="img">
+                        <img src="./ss/preview-6.png" alt="p-1" />
+                    </div>
+                    <div class="project-btns">
+                        <a href="https://62e2b9e663dac343c9a6aa9b--monumental-cannoli-65f843.netlify.app/"
+                            target="_blank">
+                            <button class="live-btn">Live Link</button>
+                        </a>
+                        <a href="https://github.com/omkarg01/HTML-CSS-Project-6" target="_blank">
+                            <button class="github-btn">Github Link</button>
+                        </a>
+                    </div>
+                </div>
+                <!-- card-7 -->
+                <div class="project-card">
+                    <div class="img">
+                        <img src="./ss/preview-7.png" alt="p-1" />
+                    </div>
+                    <div class="project-btns">
+                        <a href="https://62e2ba36569b03449d8e96b3--resplendent-travesseiro-0bafbd.netlify.app/"
+                            target="_blank">
+                            <button class="live-btn">Live Link</button>
+                        </a>
+                        <a href="https://github.com/omkarg01/HTML-CSS-Project-7" target="_blank">
+                            <button class="github-btn">Github Link</button>
+                        </a>
+                    </div>
+                </div>
+                <!-- card-8 -->
+                <div class="project-card">
+                    <div class="img">
+                        <img src="./ss/preview-8.png" alt="p-1" />
+                    </div>
+                    <div class="project-btns">
+                        <a href="https://62e2bab79030634310993ee6--famous-praline-5d7109.netlify.app/" target="_blank">
+                            <button class="live-btn">Live Link</button>
+                        </a>
+                        <a href="https://github.com/omkarg01/HTML-CSS-Project-8" target="_blank">
+                            <button class="github-btn">Github Link</button>
+                        </a>
+                    </div>
+                </div>
+                <!-- card-9 -->
+                <div class="project-card">
+                    <div class="img">
+                        <img src="./ss/preview-9.png" alt="p-1" />
+                    </div>
+                    <div class="project-btns">
+                        <a href="https://62e2bb30d78f6a45390a3c79--wondrous-mooncake-ff5369.netlify.app/"
+                            target="_blank">
+                            <button class="live-btn">Live Link</button>
+                        </a>
+                        <a href="https://github.com/omkarg01/HTML-CSS-Project-9" target="_blank">
+                            <button class="github-btn">Github Link</button>
+                        </a>
+                    </div>
+                </div>
+                <!-- card-10 -->
+                <div class="project-card">
+                    <div class="img">
+                        <img src="./ss/preveiw-10.png" alt="p-1" />
+                    </div>
+                    <div class="project-btns">
+                        <a href="https://62e44ffef9d40204c5025f3d--sensational-youtiao-d8f797.netlify.app/"
+                            target="_blank">
+                            <button class="live-btn">Live Link</button>
+                        </a>
+                        <a href="https://github.com/omkarg01/HTML-CSS-Project-10" target="_blank">
+                            <button class="github-btn">Github Link</button>
+                        </a>
+                    </div>
+                </div>
+                <!-- card-11 -->
+                <div class="project-card">
+                    <div class="img">
+                        <img src="./ss/preview-11.png" alt="p-1" />
+                    </div>
+                    <div class="project-btns">
+                        <a href="https://62e436c90c6d7630ae1c956e--tangerine-cuchufli-c231eb.netlify.app/"
+                            target="_blank">
+                            <button class="live-btn">Live Link</button>
+                        </a>
+                        <a href="https://github.com/omkarg01/HTML-CSS-Project-11" target="_blank">
+                            <button class="github-btn">Github Link</button>
+                        </a>
+                    </div>
+                </div>
+                <!-- card-12 -->
+                <div class="project-card">
+                    <div class="img">
+                        <img src="./ss/preview-12.png" alt="p-1" />
+                    </div>
+                    <div class="project-btns">
+                        <a href="https://62e4374a28e5db39069e77a2--polite-dieffenbachia-e08395.netlify.app/"
+                            target="_blank">
+                            <button class="live-btn">Live Link</button>
+                        </a>
+                        <a href="https://github.com/omkarg01/HTML-CSS-Project-12" target="_blank">
+                            <button class="github-btn">Github Link</button>
+                        </a>
+                    </div>
+                </div>
+                <!-- card-13 -->
+                <div class="project-card">
+                    <div class="img">
+                        <img src="./ss/preview-13.png" alt="p-1" />
+                    </div>
+                    <div class="project-btns">
+                        <a href="https://62e437d56987523976e6fd3e--inquisitive-hummingbird-26fb5f.netlify.app/"
+                            target="_blank">
+                            <button class="live-btn">Live Link</button>
+                        </a>
+                        <a href="https://github.com/omkarg01/HTML-CSS-Project-13" target="_blank">
+                            <button class="github-btn">Github Link</button>
+                        </a>
+                    </div>
+                </div>
+                <!-- card-14 -->
+                <div class="project-card">
+                    <div class="img">
+                        <img src="./ss/preview-14.png" alt="p-1" />
+                    </div>
+                    <div class="project-btns">
+                        <a href="https://62e43802a1e2a23bd0384f89--chic-figolla-596934.netlify.app/" target="_blank">
+                            <button class="live-btn">Live Link</button>
+                        </a>
+                        <a href="https://github.com/omkarg01/HTML-CSS-Project-14" target="_blank">
+                            <button class="github-btn">Github Link</button>
+                        </a>
+                    </div>
+                </div>
+                <!-- card-15 -->
+                <div class="project-card">
+                    <div class="img">
+                        <img src="./ss/preview-15.png" alt="p-1" />
+                    </div>
+                    <div class="project-btns">
+                        <a href="https://62e43860707898394ffe22cb--super-basbousa-6c93a7.netlify.app/" target="_blank">
+                            <button class="live-btn">Live Link</button>
+                        </a>
+                        <a href="https://github.com/omkarg01/HTML-CSS-Project-15" target="_blank">
+                            <button class="github-btn">Github Link</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact section -->
+        <div class="contact">
+            <div class="contact-box">
+                <div class="left">
+                    <h1>
+                        Let's work together on <br />
+                        your next project.
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Itaque, earum beatae. Tempore placeat cum
+                    </p>
+                </div>
+                <div>
+                    <button class="btn contact">Contact</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="footer-menus">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Projects</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+        <footer class="footer-media">
+            <div class="logo">
+                <!-- <img src="./assets/logo.svg" alt="logo" /> -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="140" height="48.193" viewBox="0 0 140 48.193">
+                    <g id="logo" transform="translate(0 -0.904)">
+                        <path id="Path_9" data-name="Path 9"
+                            d="M0,16.965v8.922A23.006,23.006,0,0,1,8.848,27.65a23.087,23.087,0,0,1,7.5,5.032,23.2,23.2,0,0,1,5.008,7.531A23.278,23.278,0,0,1,23.11,49.1h8.878a32.23,32.23,0,0,0-9.378-22.709A31.957,31.957,0,0,0,0,16.965Z" />
+                        <path id="Path_10" data-name="Path 10"
+                            d="M44.4.9H30.329a57.217,57.217,0,0,1,17.66,17.732V4.507A3.6,3.6,0,0,0,44.4.9Z" />
+                        <path id="Path_11" data-name="Path 11"
+                            d="M8.84.9H0V8.937A39.947,39.947,0,0,1,28.265,20.711,40.29,40.29,0,0,1,39.991,49.1h8V40.219a49.2,49.2,0,0,0-13.5-25.753A48.861,48.861,0,0,0,8.84.9Z" />
+                        <path id="Path_12" data-name="Path 12" d="M69.75,6.208H64.115V34.731H69.75Z" />
+                        <path id="Path_13" data-name="Path 13"
+                            d="M90.468,18.566a9.57,9.57,0,0,0-3.23-1.944,11.915,11.915,0,0,0-7.927,0,9.564,9.564,0,0,0-3.232,1.944A9.13,9.13,0,0,0,73.92,21.6a10.335,10.335,0,0,0,0,7.923,9.092,9.092,0,0,0,2.16,3.044,9.5,9.5,0,0,0,3.229,1.943,11.9,11.9,0,0,0,7.927,0,9.509,9.509,0,0,0,3.23-1.943,9.111,9.111,0,0,0,2.16-3.044,10.337,10.337,0,0,0,0-7.923A9.143,9.143,0,0,0,90.468,18.566ZM86.6,28.923a4.953,4.953,0,0,1-6.65,0,5.357,5.357,0,0,1,0-6.722,4.953,4.953,0,0,1,6.65,0,5.357,5.357,0,0,1,0,6.722Z" />
+                        <path id="Path_14" data-name="Path 14"
+                            d="M110.7,18.81h-.071a5.749,5.749,0,0,0-.9-1,6.521,6.521,0,0,0-1.352-.926,8.483,8.483,0,0,0-3.983-.942,7.371,7.371,0,0,0-3.493.812,8.285,8.285,0,0,0-2.612,2.132,9.693,9.693,0,0,0-1.653,3.055,11.092,11.092,0,0,0-.582,3.551,10.927,10.927,0,0,0,.639,3.8,8.73,8.73,0,0,0,1.813,3,8.2,8.2,0,0,0,2.84,1.959,9.368,9.368,0,0,0,3.681.7,7.728,7.728,0,0,0,2.723-.547,5.3,5.3,0,0,0,2.423-1.868h.076v1.775a4.453,4.453,0,0,1-1.221,3.225,5.088,5.088,0,0,1-3.814,1.268,7.738,7.738,0,0,1-3.173-.642,11.764,11.764,0,0,1-2.762-1.735l-3.118,4.673a10.854,10.854,0,0,0,4.358,2.132,21.31,21.31,0,0,0,4.809.547q5.334,0,7.944-2.7t2.612-7.9V16.4H110.7Zm-.338,8.356A4.435,4.435,0,0,1,109.4,28.6a4.882,4.882,0,0,1-1.446,1,4.356,4.356,0,0,1-3.55,0,4.965,4.965,0,0,1-1.428-1,4.463,4.463,0,0,1,0-6.3,4.989,4.989,0,0,1,1.428-1,4.371,4.371,0,0,1,3.55,0,4.905,4.905,0,0,1,1.446,1,4.491,4.491,0,0,1,.959,4.866Z" />
+                        <path id="Path_15" data-name="Path 15"
+                            d="M137.051,18.566a9.57,9.57,0,0,0-3.23-1.944,11.915,11.915,0,0,0-7.927,0,9.571,9.571,0,0,0-3.232,1.944A9.132,9.132,0,0,0,120.5,21.6a10.327,10.327,0,0,0,0,7.923,9.087,9.087,0,0,0,2.159,3.044,9.5,9.5,0,0,0,3.232,1.943,11.9,11.9,0,0,0,7.927,0,9.5,9.5,0,0,0,3.23-1.943,9.09,9.09,0,0,0,2.16-3.044,10.339,10.339,0,0,0,0-7.923A9.12,9.12,0,0,0,137.051,18.566Zm-3.869,10.356a4.952,4.952,0,0,1-6.65,0,5.355,5.355,0,0,1,0-6.722,4.952,4.952,0,0,1,6.65,0,5.358,5.358,0,0,1,0,6.722Z" />
+                    </g>
+                </svg>
+            </div>
+            <div class="icons">
+                <img src="./assets/fb.svg" alt="facebook" />
+                <img src="./assets/twitter.svg" alt="twitter" />
+                <img src="./assets/youtube.svg" alt="youtube" />
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
