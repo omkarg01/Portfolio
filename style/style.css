@@ -105,11 +105,7 @@ body {
     border-radius: 5rem;
 }
 
-.left-section .social {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
+
 
 .self-desc h2 {
     font-size: 35px;
@@ -120,6 +116,12 @@ body {
     margin-bottom: 15px;
 }
 
+.left-section .social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
 .social .logo {
     height: 40px;
     width: 40px;
@@ -127,6 +129,7 @@ body {
     align-items: center;
     margin-block: 10px;
 }
+
 
 .logo i {
     color: var(--primary);
@@ -136,6 +139,26 @@ body {
     width: 100%;
     cursor: pointer;
 }
+
+.social .logo .fa-github:hover{
+    font-size: 30px;
+    transition: 100ms;
+    color: #fff;
+}
+
+.social .logo .fa-twitter:hover{
+    font-size: 30px;
+    transition: 100ms;
+    color: #1DA1F2;
+}
+
+.social .logo .fa-linkedin:hover{
+    font-size: 30px;
+    transition: 100ms;
+    color: #0072b1;
+}
+
+
 
 
 .right-section {
@@ -391,9 +414,15 @@ body {
 }
 
 .github-btn {
-    border: 3px solid var(--primary);
+    outline: 3px solid var(--primary);
     background-color: transparent;
     color: var(--primary);
+}
+
+
+.github-btn:hover{
+    background-color: var(--primary);
+    color: var(--bg-dark-1);
 }
 
 .project-card img {
