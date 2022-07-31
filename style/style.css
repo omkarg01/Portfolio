@@ -25,16 +25,19 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 12px;
 }
+
 ::-webkit-scrollbar-track {
     background: var(--primary);
-    border-radius: 5px;
+    border-radius: 12px;
 }
- /* Handle */
- ::-webkit-scrollbar-thumb {
+
+/* Handle */
+::-webkit-scrollbar-thumb {
     background: black;
-    border-radius: 5px;
+    border-radius: 7px;
+    border: 2.5px solid var(--primary);
 }
 
 /* ------------------------------ */
@@ -52,12 +55,13 @@ body {
     justify-content: space-between;
 }
 
-.logo svg{
+.logo svg {
     height: 130px;
     position: relative;
     left: -45px;
     top: 10px;
 }
+
 .logo img {
     height: 170px;
     fill: var(--primary);
@@ -80,7 +84,7 @@ body {
     cursor: pointer;
 }
 
-.list li:hover{
+.list li:hover {
     color: var(--primary);
     transition: 100ms ease-in-out;
 }
@@ -153,19 +157,19 @@ body {
     cursor: pointer;
 }
 
-.social .logo .fa-github:hover{
+.social .logo .fa-github:hover {
     font-size: 30px;
     transition: 100ms;
     color: #fff;
 }
 
-.social .logo .fa-twitter:hover{
+.social .logo .fa-twitter:hover {
     font-size: 30px;
     transition: 100ms;
     color: #1DA1F2;
 }
 
-.social .logo .fa-linkedin:hover{
+.social .logo .fa-linkedin:hover {
     font-size: 30px;
     transition: 100ms;
     color: #0072b1;
@@ -433,7 +437,7 @@ body {
 }
 
 
-.github-btn:hover{
+.github-btn:hover {
     background-color: var(--primary);
     color: var(--bg-dark-1);
 }
