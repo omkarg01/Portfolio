@@ -1,57 +1,65 @@
-# Hi there, I'm Omkar Gujja 👋
+# Hi, I'm Omkar Gujja 👋
 
-Welcome to my GitHub profile! I'm a passionate developer focused on building meaningful digital experiences.
+I'm a **Full Stack Developer** with hands-on experience building scalable, secure, and user-centric web applications across frontend and backend technologies.
 
 ## 🔗 Portfolio
-
-Check out my portfolio to see my work and projects:
-
-👉 **Portfolio:** [https://omkargujja.netlify.app](https://omkargujja.netlify.app/)
+👉 **https://omkargujja.netlify.app**  
+Explore my projects, technical expertise, and professional journey.
 
 ---
 
 ## 👨‍💻 About Me
 
-- 🔭 I’m currently working on building scalable web applications
-- 🌱 I’m learning modern JavaScript frameworks and cloud deployment
-- 💬 Ask me about **JavaScript, React, Node.js**
-- 📫 You can reach me on **LinkedIn** (add your link) or email (add email)
+- Full Stack Developer with strong frontend and backend expertise  
+- Experienced in building production-ready web applications  
+- Comfortable working across the entire development lifecycle  
+- Strong focus on clean code, performance, and maintainability  
 
 ---
 
-## 🛠️ Skills
+## 🛠️ Technical Skills
 
-**Languages:** JavaScript, HTML, CSS  
-**Frontend:** React, Next.js  
-**Backend:** Node.js, Express  
-**Tools:** Git, GitHub, VS Code
+### Frontend
+- React
+- Angular
+- JavaScript (ES6+)
+- TypeScript
+- HTML5, CSS3
 
----
+### Backend
+- Node.js
+- Express.js
+- RESTful APIs
 
-## 📂 Featured Projects
+### Cloud & DevOps
+- Microsoft Azure
+- Azure App Services
+- Azure Active Directory (AAD)
+- Azure Authentication & Authorization
 
-Here are some projects you can explore (replace with yours):
-
-### 🔹 Project Name
-**Description:** Short project description  
-**Tech:** React, API, CSS  
-**Link:** https://github.com/yourusername/project
-
-### 🔹 Project Name
-**Description:** Short project description  
-**Tech:** Node.js, Express, MongoDB  
-**Link:** https://github.com/yourusername/project
-
----
-
-## 📫 Contact
-
-Feel free to connect with me:
-
-- Portfolio: https://omkargujja.netlify.app/
-- LinkedIn: (your LinkedIn URL)
-- Email: (your email)
+### Tools & Others
+- Git & GitHub
+- JWT Authentication
+- API Integration
+- Responsive Design
+- Agile / Scrum
 
 ---
 
-Thanks for visiting my profile!
+## 📂 Projects
+
+You can find detailed project implementations and case studies in my portfolio:
+
+👉 **https://omkargujja.netlify.app**
+
+---
+
+## 📫 Connect With Me
+
+- 🌐 Portfolio: https://omkargujja.netlify.app  
+- 💼 LinkedIn: (Add your LinkedIn URL)  
+- 📧 Email: (Add your email)
+
+---
+
+⭐ If you like my work, feel free to star my repositories and connect with me!
