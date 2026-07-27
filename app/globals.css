@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #070b12;
+  --bg-elevated: #0c121c;
+  --fg: #e8eef7;
+  --muted: #8b9bb0;
+  --accent: #2dd4bf;
+  --accent-dim: #14b8a6;
+  --accent-2: #38bdf8;
+  --accent-3: #a5b4fc;
+  --accent-glow: rgba(45, 212, 191, 0.22);
+  --accent-soft: rgba(45, 212, 191, 0.1);
+  --accent-soft-2: rgba(56, 189, 248, 0.08);
+  --line: rgba(139, 155, 176, 0.18);
+  --surface: rgba(14, 22, 34, 0.72);
+  --cta-shadow: rgba(45, 212, 191, 0.25);
+  --grid-line: rgba(45, 212, 191, 0.06);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-dim: var(--accent-dim);
+  --color-line: var(--line);
+  --color-surface: var(--surface);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body), system-ui, sans-serif;
+  overflow-x: hidden;
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.hero-space {
+  background:
+    radial-gradient(ellipse 55% 50% at 50% 45%, var(--accent-soft), transparent 60%),
+    radial-gradient(ellipse 40% 35% at 50% 40%, var(--accent-soft-2), transparent 55%),
+    linear-gradient(180deg, #03060c 0%, var(--bg) 50%, #05080f 100%);
+}
+
+.hero-vignette {
+  background:
+    radial-gradient(ellipse 55% 55% at 50% 45%, transparent 20%, rgba(3, 6, 12, 0.55) 70%, rgba(3, 6, 12, 0.88) 100%),
+    linear-gradient(180deg, rgba(3, 6, 12, 0.35) 0%, transparent 25%, transparent 70%, rgba(3, 6, 12, 0.85) 100%);
+}
+
+.ai-gradient {
+  background: linear-gradient(105deg, var(--accent) 0%, var(--accent-2) 45%, var(--accent-3) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.cta-primary {
+  background: linear-gradient(105deg, var(--accent) 0%, var(--accent-2) 100%);
+  box-shadow: 0 0 28px var(--cta-shadow);
+}
+
+.scroll-dot {
+  animation: scroll-pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes scroll-pulse {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  70% {
+    transform: translateY(10px);
+    opacity: 0.15;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.noise {
+  position: absolute;
+  inset: 0;
+  opacity: 0.04;
+  pointer-events: none;
+  z-index: 1;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.project-flow-grid {
+  background-image:
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 28px 28px;
+  mask-image: radial-gradient(ellipse 80% 70% at 50% 50%, black 20%, transparent 75%);
+}
+
+.intro-aura {
+  background:
+    radial-gradient(ellipse 50% 40% at 50% 45%, var(--accent-soft), transparent 60%),
+    radial-gradient(ellipse 30% 25% at 50% 50%, var(--accent-soft-2), transparent 55%);
+}
+
+.intro-mark {
+  background: linear-gradient(90deg, transparent, var(--accent) 20%, var(--accent-2) 80%, transparent);
+}
