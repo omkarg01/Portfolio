@@ -135,6 +135,32 @@ export const projects = [
   },
   {
     id: "02",
+    title: "Multi-Agent Commerce Desk",
+    subtitle: "Agno + Groq",
+    category: "Multi-Agent",
+    featured: true,
+    description:
+      "Four-agent commerce system: a coordinator plans the run, FAQ (web search) and Inventory specialists answer in parallel, a reviewer checks their drafts, then the coordinator composes one answer for stock, pricing, and product questions.",
+    outcome: "One query → specialists + review → one answer",
+    highlights: ["4 agents", "Parallel specialists", "Reviewer loop"],
+    flow: ["User", "Coordinator", "Specialists", "Reviewer"],
+    stack: ["Agno", "Groq", "Streamlit", "DuckDuckGo"],
+    preview: "agents" as const,
+    mock: {
+      query:
+        "Do you have wireless headphones in stock, and what's the return policy?",
+      agents: [
+        { name: "Coordinator", role: "Planning…", active: true },
+        { name: "Inventory", role: "Stock + price", active: true },
+        { name: "FAQ", role: "Policy search", active: true },
+      ],
+      answer: "Yes: 24 units in Audio. Returns accepted within 30 days.",
+    },
+    href: "https://multi-agent-commerce-desk.streamlit.app/",
+    github: "https://github.com/omkarg01/multi-agent-commerce-desk",
+  },
+  {
+    id: "03",
     title: "HR Assist",
     subtitle: "MCP Server",
     category: "Agentic Tools",
@@ -160,11 +186,11 @@ export const projects = [
     github: "https://github.com/omkarg01/HR-Assist-MCP-Server",
   },
   {
-    id: "03",
+    id: "04",
     title: "ProShop",
     subtitle: "MERN + Tambo AI",
     category: "Full Stack · Generative UI",
-    featured: true,
+    featured: false,
     description:
       "Full-featured MERN eCommerce platform (cart, checkout, PayPal, admin) extended with Tambo AI. The assistant returns interactive UI components in chat, not just text: product cards, sales dashboards, inventory tools, and order history.",
     outcome: "Chat replies as live components, not paragraphs",
@@ -189,32 +215,6 @@ export const projects = [
     },
     href: "https://proshop-6ko3.onrender.com/",
     github: "https://github.com/omkarg01/Proshop",
-  },
-  {
-    id: "04",
-    title: "Multi-Agent Commerce Desk",
-    subtitle: "Agno + Groq",
-    category: "Multi-Agent",
-    featured: false,
-    description:
-      "Three-agent commerce system with a coordinator that routes queries to FAQ (web search) and Inventory agents, then synthesizes a single coherent answer for stock, pricing, and product questions.",
-    outcome: "One query → coordinated specialists → one answer",
-    highlights: ["3 agents", "Tool routing", "Streamlit UI"],
-    flow: ["User", "Coordinator", "FAQ Agent", "Inventory"],
-    stack: ["Agno", "Groq", "Streamlit", "DuckDuckGo"],
-    preview: "agents" as const,
-    mock: {
-      query:
-        "Do you have wireless headphones in stock, and what's the return policy?",
-      agents: [
-        { name: "Coordinator", role: "Routing…", active: true },
-        { name: "Inventory", role: "Stock + price", active: true },
-        { name: "FAQ", role: "Policy search", active: false },
-      ],
-      answer: "Yes: 24 units in Audio. Returns accepted within 30 days.",
-    },
-    href: "",
-    github: "https://github.com/omkarg01/multi-agent-commerce-desk",
   },
   {
     id: "05",
